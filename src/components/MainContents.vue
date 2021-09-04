@@ -1,6 +1,6 @@
 <template>
   <div class="MainContents">
-    <h1>{{ msg }}</h1>
+    <img src="../assets/coffee-back.jpg">
   </div>
 </template>
 
@@ -14,10 +14,7 @@ export default {
 </script>
 
 <style scoped>
-.MainContents{
-  width: 95%;
-}
-h3 {
-  margin: 40px 0 0;
+img {
+  width: 100%;
 }
 </style>

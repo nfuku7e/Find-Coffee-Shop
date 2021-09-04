@@ -3,14 +3,14 @@
     <div class="header">
       <div class="logowrapper">
         <img class="logo" alt="Coffee logo" src="../assets/coffee.png">
-        <h1>Coffee</h1>
+        <h1>Find Coffee Shop</h1>
       </div>
       <nav>
         <ul>
-          <li>メニュー1</li>
-          <li>メニュー2</li>
-          <li>メニュー3</li>
-          <li>メニュー4</li>
+          <li>HOME</li>
+          <li>PRICE</li>
+          <li>MAP</li>
+          <li>CONTACT</li>
         </ul>
       </nav>
     </div>
@@ -27,6 +27,7 @@ export default {
 .hwrapper{
   width: 100%;
   background-color: #EFEFEF;
+  position: fixed
 }
 .header{
   height: 90px;
