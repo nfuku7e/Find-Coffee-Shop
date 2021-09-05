@@ -2,7 +2,7 @@
   <div class="hwrapper">
     <div class="header">
       <div class="logowrapper">
-        <img class="logo" alt="Coffee logo" src="../assets/coffee.png">
+        <img class="logo" alt="Coffee logo" src="../assets/images/coffee.png">
         <h1>Find Coffee Shop</h1>
       </div>
       <nav>
@@ -29,6 +29,7 @@ export default {
   height: 90px;
   position: relative;
   top: 0;
+  z-index: 1;
 }
 .header{
   width: 100%;

@@ -22,3 +22,9 @@ pnpm-debug.log*
 *.sln
 *.sw?
 *.json
+
+#images
+./src/assets/images/doutor/
+./src/assets/images/komeda/
+./src/assets/images/stabucks/
+./src/assets/images/tully/

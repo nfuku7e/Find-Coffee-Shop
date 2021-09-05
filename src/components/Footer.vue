@@ -14,16 +14,16 @@ export default {
 
 <style scoped>
 .fwrapper{
-    width: 100%;
-    height: 30px;
-    align-items: center;
-    position: fixed;
-    bottom: 0; 
-    
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  position: relative;
 }
 .footer{
   width: 100%;
   height: 30px;
+  position: fixed;
+  bottom: 0;
   background-color: #EFEFEF;
 }
 </style>
