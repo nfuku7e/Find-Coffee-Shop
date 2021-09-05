@@ -10,7 +10,7 @@
           <router-link to="/" tag="li">HOME</router-link>
           <router-link to="/price" tag="li">PRICE</router-link>
           <li>MAP</li>
-          <li>CONTACT</li>
+          <router-link to="/contact" tag="li">CONTACT</router-link>
         </ul>
       </nav>
     </div>
