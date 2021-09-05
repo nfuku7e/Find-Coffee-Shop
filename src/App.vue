@@ -1,20 +1,18 @@
 <template>
   <div id="app">
     <Header/>
-    <MainContents/>
+    <router-view/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import MainContents from './components/MainContents.vue'
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    MainContents,
     Header,
     Footer
   }

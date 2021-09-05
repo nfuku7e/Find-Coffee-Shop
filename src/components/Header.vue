@@ -7,8 +7,8 @@
       </div>
       <nav>
         <ul>
-          <li>HOME</li>
-          <li>PRICE</li>
+          <router-link to="/" tag="li">HOME</router-link>
+          <router-link to="/price" tag="li">PRICE</router-link>
           <li>MAP</li>
           <li>CONTACT</li>
         </ul>
@@ -26,11 +26,15 @@ export default {
 <style scoped>
 .hwrapper{
   width: 100%;
-  background-color: #EFEFEF;
-  position: fixed
+  height: 90px;
+  position: relative;
+  top: 0;
 }
 .header{
+  width: 100%;
   height: 90px;
+  position: fixed;
+  background-color: #EFEFEF;
   display: flex;
   justify-content: flex-end;
   align-items: center;

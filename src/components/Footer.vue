@@ -19,6 +19,11 @@ export default {
     align-items: center;
     position: fixed;
     bottom: 0; 
-    background-color: #EFEFEF;
+    
+}
+.footer{
+  width: 100%;
+  height: 30px;
+  background-color: #EFEFEF;
 }
 </style>

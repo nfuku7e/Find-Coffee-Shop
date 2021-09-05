@@ -1,15 +1,14 @@
 <template>
-  <div class="MainContents">
+  <div class="home">
     <img src="../assets/coffee-back.jpg">
   </div>
 </template>
 
 <script>
+//import MainContents from '@/components/MainContents.vue'
+
 export default {
-  name: 'MainContents',
-  props: {
-    msg: String
-  }
+  name: 'Home'
 }
 </script>
 
@@ -18,3 +17,4 @@ img {
   width: 100%;
 }
 </style>
+
