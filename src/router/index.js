@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Price from '../views/Price.vue'
 import Contact from '../views/Contact.vue'
+import CoffeeMap from '../views/CoffeeMap.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +27,16 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/map',
+    name: 'CoffeeMap',
+    component: CoffeeMap
+  },
+  {
+    path: '*', 
+    name: 'NotFound',
+    component: NotFound 
   }
 ]
 

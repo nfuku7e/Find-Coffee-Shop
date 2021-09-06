@@ -84,6 +84,8 @@ select{
   height: 30px;
   text-align: center;
   border-radius: 50px;
+  outline: none;
+  cursor: pointer;
 }
 .cwrapper{
   display: grid;

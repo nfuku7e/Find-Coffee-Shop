@@ -3,13 +3,13 @@
     <div class="header">
       <div class="logowrapper">
         <img class="logo" alt="Coffee logo" src="../assets/images/coffee.png">
-        <h1>Find Coffee Shop</h1>
+        <router-link to="/" tag="div"><h1>Find Coffee Shop</h1></router-link>
       </div>
       <nav>
         <ul>
           <router-link to="/" tag="li">HOME</router-link>
           <router-link to="/price" tag="li">PRICE</router-link>
-          <li>MAP</li>
+          <router-link to="/map" tag="li">MAP</router-link>
           <router-link to="/contact" tag="li">CONTACT</router-link>
         </ul>
       </nav>
@@ -49,6 +49,9 @@ export default {
   width: 50px;
   height: 40px;
 }
+h1{
+  cursor: pointer;
+}
 ul{
   display: flex;
   list-style-type: none
@@ -56,5 +59,6 @@ ul{
 li{
   font-weight: bold;
   margin: 0 40px 0 0;
+  cursor: pointer;
 }
 </style>
