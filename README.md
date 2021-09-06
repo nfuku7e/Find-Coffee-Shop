@@ -1,24 +1,7 @@
-# project
+# Coffee Find Shop
 
-## Project setup
-```
-npm install
-```
+Vue.jsで作成したポートフォリオです。
+機能は以下の通りです
+priceページで4つのカフェ（ドトール、タリーズ、スタバ、コメダコーヒー）ごとに商品の価格を表示する
+mapページで近くのカフェを表示する（ただいま準備中）
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
